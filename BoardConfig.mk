@@ -8,7 +8,7 @@ TARGET_BOARD_PLATFORM := unknown
 TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := m6000
 
-BOARD_KERNEL_CMDLINE := mem215M console=ttyMSM2,115200n8 androidboot.hardware=qcom
+BOARD_KERNEL_CMDLINE := mem=215M console=ttyMSM2,115200n8 androidboot.hardware=qcom
 BOARD_KERNEL_BASE := 0x00400000
 BOARD_PAGE_SIZE := 0x00001000
 
